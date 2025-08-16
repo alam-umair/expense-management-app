@@ -1,0 +1,59 @@
+/* Container */
+.filter-container {
+  /* margin: 1rem 1.5rem; */
+  padding: 0rem 2rem;
+  background: transparent;
+  border-radius: 5px;
+  text-align: right;
+  width: 100%;
+  /* border: 2px solid #ccc; */
+}
+
+/* Form layout */
+.filter-form {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Select dropdown */
+.filter-select {
+  padding: 1rem 1.6rem;
+  font-size: 1.6rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  color: #111827;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.filter-select:hover {
+  border-color: #6366f1;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+/* Button */
+.filter-button {
+  padding: 1rem 1.6rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.6px;
+  font-family: "system-ui", sans-serif;
+}
+
+.filter-button:hover {
+  background: #4338ca;
+}

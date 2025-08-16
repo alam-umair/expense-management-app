@@ -1,0 +1,25 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  margin: 2rem;
+  background-color: lightgoldenrodyellow;
+}
+.filter-expenses {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+  text-align: center;
+}
+.card.expenses p {
+  color: red;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: "systems-ui", sans-serif;
+  letter-spacing: 1px;
+}

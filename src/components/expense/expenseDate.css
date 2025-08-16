@@ -1,0 +1,36 @@
+/* Outer box */
+.expense-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+  background: #f9fafb;
+  padding: 0.8rem 2.7rem;
+  width: 12rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: "system-ui", sans-serif;
+}
+
+/* Year */
+.expense-date__year {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4b5563;
+}
+
+/* Month */
+.expense-date__month {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+/* Day */
+.expense-date__day {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: red;
+}

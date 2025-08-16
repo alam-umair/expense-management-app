@@ -1,0 +1,39 @@
+.new-expense__controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+  gap: 2rem;
+}
+.new-expense__control {
+  padding: 1rem 0rem;
+}
+
+.new-expense__control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.new-expense__control input {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  color: #2f4f4f;
+  background-color: #f8f9fc;
+  width: 29vw;
+}
+
+.new-expense__actions {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
