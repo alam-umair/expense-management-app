@@ -2,6 +2,8 @@
 
 A simple React application to manage and visualize your expenses by year and month. Users can add new expenses, filter them by year, and view a bar chart of expenses per month.
 
+![Expense Management App Screenshot](./src/assets/images/expense-management-app.png)
+
 ## Features
 
 - Add new expenses with title, amount, and date
